@@ -14,7 +14,7 @@ void setup() {
   pinMode(GMX_GPIO1,OUTPUT);
   pinMode(GMX_GPIO2,OUTPUT);
   pinMode(GMX_GPIO3,OUTPUT);
- // pinMode(GMX_GPIO4,OUTPUT);
+  pinMode(GMX_GPIO4,OUTPUT);
   pinMode(GMX_GPIO5,OUTPUT);
   
   digitalWrite(GMX_GPIO1,LOW);
@@ -23,13 +23,13 @@ void setup() {
 
   // Power On
   
-//  digitalWrite(GMX_GPIO4,HIGH);
+  digitalWrite(GMX_GPIO4,HIGH);
   digitalWrite(GMX_GPIO5,HIGH);
   delay(500);
-//  digitalWrite(GMX_GPIO4,LOW);
+  digitalWrite(GMX_GPIO4,LOW);
   digitalWrite(GMX_GPIO5,LOW);
   delay(200);
-//  digitalWrite(GMX_GPIO4,HIGH);
+  digitalWrite(GMX_GPIO4,HIGH);
   digitalWrite(GMX_GPIO5,HIGH);
   
   
